@@ -1,0 +1,70 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+
+/* CRÉDITOS */
+
+h1 {
+    margin: 1%;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+
+/* CRÉDITOS CAIXA */
+
+.carta1 {
+    grid-area: first;
+}
+
+.carta2 {
+    grid-area: second;
+}
+
+.carta3 {
+    grid-area: third;
+}
+
+@media only screen and (min-width: 900px) {
+    .creditosB {
+        display: grid;
+        grid-template-areas: 'first second third';
+        grid-template-columns: 33% 33% 33%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .creditosB {
+        display: grid;
+        grid-template-areas: 'first' 'second' 'third';
+        grid-template-columns: 99%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    footer {
+        text-align: center;
+        margin-top: auto;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+}

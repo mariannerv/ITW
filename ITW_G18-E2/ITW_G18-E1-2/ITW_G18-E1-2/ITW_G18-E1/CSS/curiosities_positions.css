@@ -1,0 +1,35 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+
+/* IMAGENS CURIOSIDADES */
+
+#electrodeThink {
+    height: 450px;
+    width: 420px;
+    float: right;
+}
+
+#psyduckThink {
+    float: left;
+}
+
+
+/* CURIOSIDADES LISTA */
+
+#curiosidadesLista {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 700px;
+}
+
+#curiosidadesLista li {
+    padding-bottom: 15px;
+}

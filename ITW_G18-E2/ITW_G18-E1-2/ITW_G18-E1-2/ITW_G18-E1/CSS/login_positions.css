@@ -1,0 +1,42 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* container */
+
+.two-columns {
+    display: flex;
+}
+
+
+/* columns */
+
+.two-columns>* {
+    text-align: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+.text-columns {
+    text-align: center;
+}

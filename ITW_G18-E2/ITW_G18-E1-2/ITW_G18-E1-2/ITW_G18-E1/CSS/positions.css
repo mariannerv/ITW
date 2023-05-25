@@ -1,0 +1,25 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+@import "index_position.css";
+@import "credits_positions.css";
+@import "about_positions.css";
+@import "game_menu_positions.css";
+@import "game_positions.css";
+@import "curiosities_positions.css";
+@import "tutorial_positions.css";
+@import "score_positions.css";
+
+/* IMAGENS DO NAVBAR */
+
+.navbarL {
+    width: 25px;
+    height: 25px;
+}

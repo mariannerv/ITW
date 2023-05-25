@@ -1,0 +1,102 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+
+/* REGRAS FUNDO */
+
+#corF {
+    background-color: #fcfcfc;
+    border: 3px solid #6392ff;
+}
+
+
+/* REGRAS SINGLEPLAYER */
+
+#regras {
+    font-size: 170%;
+    list-style-image: url('../IMAGES/pokeball.png');
+}
+
+
+/* H1 DAS REGRAS */
+
+.hRegras {
+    font-size: 100%;
+}
+
+
+/* ABA DAS REGRAS */
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 50px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+section {
+    display: none;
+    padding: 10px 10px 0px;
+    border-top: 1px solid #ddd;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+input:checked+label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid orange;
+    border-bottom: 1px solid #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5 {
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    label {
+        font-size: 15px;
+        padding-bottom: 10%;
+    }
+    label:before {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    label {
+        padding: 15px;
+    }
+}
+
+
+/* TUTORIAL LISTA*/
+
+#tutorialLista {
+    margin-top: 15px;
+    font-size: 100%;
+}

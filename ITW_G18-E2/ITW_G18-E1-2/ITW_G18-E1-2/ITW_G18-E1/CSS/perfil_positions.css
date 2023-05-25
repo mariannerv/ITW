@@ -1,0 +1,125 @@
+    /* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+    
+    
+    
+            p {
+                  text-align: center;
+                  margin-top: 2%;
+              }
+              
+              #pontuacaoUser {
+                  margin-bottom: 10%;
+              }
+              
+              footer {
+                  position: fixed;
+                  left: 0px;
+                  bottom: 5px;
+                  width: 100%;
+              }
+              
+              .Perfilutilizador * {
+                  font-family: 'Fira Sans Condensed', sans-serif;
+                  font-weight: 300;
+              }
+              
+              .Perfilutilizador {
+                  display: flex;
+                  height: 200px;
+                  width: 200px;
+                  border-radius: 100px;
+                  background: rgb(0, 159, 255);
+                  background: linear-gradient(121deg, rgba(255, 255, 255, 0) 13%, rgba(255, 204, 0, 0.821) 100%);
+                  transition: all 500ms ease-in;
+                  transition-delay: 1s;
+                  margin: auto;
+                  margin-top: 200px;
+              }
+              
+              .Perfilutilizador:hover {
+                  width: 500px;
+                  border-radius: 100px 10px 100px 100px;
+                  transition: all 1s ease-out;
+              }
+              
+              .Perfilutilizador div {
+                  color: white;
+                  flex-shrink: 1;
+                  width: 100%;
+                  --background-color: green;
+              }
+              
+              .Perfilutilizador div * {
+                  display: flex;
+                  --flex: inherit;
+                  overflow: hidden;
+                  --background-color: yellow;
+                  color: white;
+                  white-space: nowrap;
+                  width: 0;
+                  height: auto;
+                  transition: all 450ms ease-in;
+                  transition-delay: 1s;
+              }
+              
+              .Perfilutilizador:hover div * {
+                  --background-color: purple;
+                  display: flex;
+                  visibility: visible;
+                  transition: all 1s ease-out;
+                  transition-delay: 500ms;
+                  width: 100%;
+                  height: auto;
+              }
+              
+              .Perfilutilizador #main,
+              .Perfilutilizador #main img {
+                  --background-color: red;
+                  height: 200px;
+                  width: 200px;
+                  padding-right: 10px;
+                  border-radius: 100%;
+                  flex-shrink: 0;
+                  object-fit: cover;
+              }
+              
+              .Perfilutilizador #main img {
+                  height: 180px;
+                  width: 180px;
+                  transition: none;
+                  position: relative;
+                  border: 10px solid white;
+                  margin: 0 0 0 0;
+                  padding: 0 0 0 0;
+              }
+              
+              .Perfilutilizador #textbois {
+                  position: relative;
+              }
+              
+              .Perfilutilizador #textbois #hotlinks {
+                  max-width: 60%;
+                  max-height: 30px;
+                  --background-color: white;
+                  position: absolute;
+                  bottom: 5px;
+                  display: flex;
+                  justify-content: space-between;
+                  border-radius: 13px;
+              }
+              
+              .Perfilutilizador #textbois #hotlinks * {
+                  background-color: white;
+                  max-width: 30px;
+                  --margin: 0 1px 0 1px;
+                  border-radius: 25px;
+              }
+        

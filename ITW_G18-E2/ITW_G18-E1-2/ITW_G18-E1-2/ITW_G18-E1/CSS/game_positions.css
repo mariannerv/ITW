@@ -1,0 +1,113 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+
+/* BOTÃO VOLTAR NO JOGO */
+
+#buttonV1 {
+    position: absolute;
+    right: 85%;
+    margin: 70px;
+    bottom: 5%;
+    padding: 1.3%;
+}
+
+#buttonV2 {
+    position: absolute;
+    margin: 100px;
+    left: 610px;
+    bottom: 2%;
+    padding: 1%;
+}
+
+#playbtn {
+    position: absolute;
+    right: 85%;
+    margin: 70px;
+    bottom: 5%;
+    padding: 1.3%;
+}
+
+
+/* PONTUAÇÃO */
+
+#pontuacaoS {
+    position: absolute;
+    right:75%;
+    top: 18%;
+     color: #000;
+}
+
+
+/* ENERGIAS ELIMINADAS */
+
+#energiasE {
+    position: absolute;
+    font-size: 19px;
+    right: 73%;
+    top: 35%;
+     color: #000;
+}
+
+
+/* JOGO SINGLEPLAYER */
+
+#tabela {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(245, 239, 239, 0.51);
+    border: 5px solid rgb(121, 168, 255);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tabela img {
+    width: 60px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 1150px) {
+    #grid {
+        padding-bottom: 100px;
+    }
+    #buttonV1 {
+        margin: 0px auto;
+    }
+}
+
+
+/* JOGO MULTIPLAYER */
+
+@media only screen and (max-width: 900px) {}
+
+
+/* AUDIO BUTOES */
+
+#playbtn{
+    position: absolute;
+    left: 1366px;
+    bottom: 70%;
+    height: 100px;
+}
+
+#pausebtn{
+    position: absolute;
+    left: 1457px;
+    top: 10%;
+    height: 60px;
+}
+

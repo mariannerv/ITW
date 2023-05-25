@@ -1,0 +1,85 @@
+<!-- GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="../CSS/login_styles.css">
+    <link rel="stylesheet" href="../CSS/login_positions.css">
+    <script src="../SCRIPTS/register.js"></script>
+
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <fieldset class="title">Registro</fieldset>
+            <form id="formRegister">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <label for="nomeUtilizador"></label>
+                    <input id="nomeUtilizador" type="text" name="nome" required placeholder="Nome de Utilizador">
+                </div>
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                    <label for="emailUtilizador"></label>
+                    <input id="emailUtilizador" type="email" name="email" required placeholder="Email">
+                </div>
+
+                <div class="row">
+                    <p>Data de nascimento </p>
+                    <label for="nascimentoUtilizador"></label>
+                    <input id="nascimentoUtilizador" type="date" name="nascimento" required>
+                </div>
+                <br>
+
+                <p>Gênero</p>
+                <div>
+                    <input type="radio" id="generoUtilizador" name="genero" value="Masculino">
+                    <label for="generoUtilizador">Masculino</label>
+                    <input type="radio" id="generoUtilizador1" name="genero" value="Femenino">
+                    <label for="generoUtilizador1">Femenino</label>
+                    <input type="radio" id="generoUtilizador2" name="genero" value="Outro">
+                    <label for="generoUtilizador2">Outro</label>
+                </div>
+
+
+
+
+                <div class="row">
+                    <i class="fas fa-lock"></i>
+                    <label for="passUtilizador"></label>
+                    <input id="passUtilizador" type="password" name="pass" placeholder="Palavra-passe" required>
+                </div>
+
+                <div class="row button">
+                    <input id="registarUtilizador" type="submit" value="Registrar">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+</html>

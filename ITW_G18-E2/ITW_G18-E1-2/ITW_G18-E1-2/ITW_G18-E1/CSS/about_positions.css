@@ -1,0 +1,141 @@
+/* GRUPO 18
+
+TURMA DA PL26
+
+YANA KOTSYUBYNSKA 58637
+MARIANA VALENTE 55945
+DIOGO GUTIERRES 49297
+
+*/
+
+
+/* REGRAS FUNDO */
+
+#corF {
+    padding: 20px;
+}
+
+
+/* REGRAS TEXTO SINGLE E MULTIPLAYER*/
+
+#listaSingle {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 800px;
+}
+
+#listaSingle li {
+    padding-bottom: 15px;
+}
+
+#regras h2 {
+    padding-top: 15px;
+    clear: both;
+}
+
+#listaMulti {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 800px;
+}
+
+#listaMulti li {
+    padding-bottom: 15px;
+}
+
+#tutorialLista {
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    max-width: 1000px;
+}
+
+#tutorialLista li {
+    padding-bottom: 15px;
+}
+
+#listaCuri {
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    max-width: 1000px;
+}
+
+#listaCuri li {
+    padding-bottom: 15px;
+}
+
+#listaVideo {
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+#listaVideo li {
+    padding-bottom: 15px;
+}
+
+
+/* POSIÇÃO DA HISTÓRIA */
+
+.historiaR {
+    margin-top: 30px;
+}
+
+
+/* TUTORIAL LISTA*/
+
+#tutorialLista {
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    max-width: 1000px;
+}
+
+
+/* TUTORIAL IMAGEM */
+
+#tutorialLista li {
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    main {
+        padding-bottom: 20px;
+    }
+    #content4 {
+        padding-bottom: 100px;
+    }
+    #content2 {
+        padding-bottom: 100px;
+    }
+
+    #content5{
+        position: absolute;
+        right: 20%;
+    }
+    
+    #hTrailer{
+        position: absolute;
+        right: 27%;
+        top: 6%;
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 900px) {
+    #hTrailer {
+        position: absolute;
+        font-size: 20px;
+        left: 47%;
+    }
+}
+
+
+/* BOTÃO DE PAUSAR A MÚSICA */
+
+.musicaIndex {
+    display: inline;
+    margin-left: 620px;
+    margin-top: 250px;
+}
